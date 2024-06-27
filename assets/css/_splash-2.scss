@@ -1,0 +1,73 @@
+/*splash 2 */
+
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 14px;
+  }
+  .splash{
+     
+    height: 100vh;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+  
+    overflow: hidden;
+    margin-top: 5px;
+  }
+  
+  .background {
+    max-width: 455px;
+    width: 100%;
+    height: 100vh;
+    background: url("../img/Ekran\ Resmi\ 2021-08-30\ 20.26.23.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .indoor_logo {
+      max-width: 174px;
+      width: 100%;
+      height: 174px;
+      
+      opacity: 1;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      overflow: hidden;
+      transform: translate(-50%,-50%);
+      -webkit-transform: translate(-50%,-50%);
+      -moz-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+      -o-transform: translate(-50%,-50%);
+  }
+  .indoor_logo, .antik img{
+    width: 100%;
+    height: auto;
+  }
+  .antik {
+      max-width: 142px;
+      width: 100%;
+      height: 64px;
+      ;
+      opacity: 1;
+      position: absolute;
+      bottom: 3%;
+      left: 42%;
+      overflow: hidden;
+      transform: translate(-22%, 3%);
+      -webkit-transform: translate(-22%, 3%);
+      -moz-transform: translate(-22%, 3%);
+      -ms-transform: translate(-22%, 3%);
+      -o-transform: translate(-22%, 3%);
+  }
+
+  

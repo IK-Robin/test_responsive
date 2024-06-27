@@ -1,0 +1,37 @@
+/*navigate-updated*/
+.navigate-2-web{
+    .search_section{
+        padding-bottom: 52px;
+   
+
+        // .hr_line{
+            
+        //     margin: 15px auto 43PX;
+        // }
+        .single_search{
+            max-width: 346px;
+            margin: 0 auto;
+            input{
+                padding: 16px 43px 16px 13px !important; 
+            }
+    
+            img{
+                width: 18.76px;
+                height: 19.22px;
+            }
+         
+    
+              @media screen and (max-width:350px) {
+                
+                max-width: 250px;
+                
+              }
+              
+        }
+    }
+}
+
+
+
+
+

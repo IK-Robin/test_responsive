@@ -1,0 +1,97 @@
+/*  GPS integration*/
+.backgroundIMg {
+	background-image: url("../img/GPS integration/map_background.png");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	max-width: 428px;
+	width: 100%;
+	margin: 0 auto;
+  
+  position: relative; 
+  padding: 0 20px;
+  
+  .home_btn_section{
+    position: absolute;
+  }
+}
+.main_container {
+  background-color: transparent;
+}
+
+.h-border {
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%) rotate(90deg);
+    border: 1px dashed #636262;
+    width: 50px;
+    -webkit-transform: translateX(-50%) rotate(90deg);
+    -moz-transform: translateX(-50%) rotate(90deg);
+    -ms-transform: translateX(-50%) rotate(90deg);
+    -o-transform: translateX(-50%) rotate(90deg);
+  }
+}
+#gps_integration{
+  .modal-content{
+    max-width: 400px;
+  margin:  auto;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+}
+.gps_integration{
+  .modal-dialog {
+    transform: none;
+    max-width: 400px;
+    margin: auto;
+  }
+}
+.gps_modal {
+  padding: 60px 42px;
+  .modal_img {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 28px;
+  }
+  .contents {
+    text-align: center;
+    h3 {
+      font-size: 20px;
+      margin-bottom: 27px;
+      font-weight: 700;
+    }
+
+    p {
+      font-size: 14px;
+      margin-bottom: 27px;
+    }
+    a {
+      font-size: 18px;
+    }
+  }
+}
+.map_l_picker {
+
+    position: absolute;
+    right: 45px;
+    bottom: 115px;
+    gap: 15px;
+  
+  .l_picker_img {
+    width: 34px;
+    height: auto;
+  }
+  .layer {
+    width: 34px;
+    height: auto;
+  }
+}
+
