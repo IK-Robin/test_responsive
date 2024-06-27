@@ -14,6 +14,11 @@ h3 {
   font-weight: 600;
 }
 
+h4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
 p {
   font-size: 18px;
 }
@@ -908,6 +913,7 @@ body {
 
 .search_section {
   position: absolute;
+  bottom: 0;
   width: 100%;
   border-radius: 30px 30px 0 0;
   background-color: #fff;
@@ -923,7 +929,7 @@ body {
 .search_section .hr_line {
   width: 36px;
   height: 5px;
-  background-color: #BEBFC0;
+  background-color: #bebfc0;
   margin: 15px auto 30px;
 }
 .search_section .single_search {
@@ -967,7 +973,7 @@ body {
 /*get direction active-web*/
 .get-direction {
   position: relative;
-  height: 100vh;
+  height: 100%;
 }
 .get-direction .get_active {
   background-color: #15b4e5 !important;
@@ -981,6 +987,7 @@ body {
 .get-direction .search_section {
   padding-bottom: 0;
   margin-top: 103px;
+  position: relative;
 }
 .get-direction .search_section .close_btn {
   width: 12px;
@@ -991,6 +998,8 @@ body {
 }
 .get-direction .search_section .hr_line {
   margin-bottom: 55px;
+  position: relative;
+  top: 23px;
 }
 .get-direction .search_section .search_container {
   padding-bottom: 79px;
@@ -1047,4 +1056,148 @@ body {
 .get-direction .select_inp .get_submit {
   margin-bottom: 30px;
   display: inline-block;
+}
+.get-direction .select_inp .get_submit svg {
+  width: 18px;
+  height: 18px;
+}
+@media screen and (max-width: 400px) {
+  .get-direction .overlay_section {
+    width: 100%;
+  }
+  .get-direction .search_section {
+    margin-top: 74px;
+  }
+  .get-direction .search_section .hr_line {
+    position: relative;
+    top: 23px;
+    margin-bottom: 55px;
+  }
+  .get-direction .search_section .search_container {
+    padding-bottom: 20px;
+  }
+  .get-direction .search_section select {
+    margin-bottom: 20px;
+    font-size: 12px;
+  }
+  .get-direction .search_section .navigation_opt .navigation_items {
+    width: 60px;
+    height: auto;
+    padding: 10px;
+  }
+  .get-direction .search_section .option_select .option_item {
+    height: auto;
+    padding: 8px;
+  }
+  .get-direction .select_inp {
+    padding: 14px 68px 0;
+  }
+  .get-direction .select_inp .get_submit {
+    margin-bottom: 30px;
+    display: inline-block;
+  }
+  .get-direction .select_inp .get_submit svg {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+/*start screen */
+.start_screen {
+  height: 95vh;
+}
+.start_screen .search_section {
+  padding-bottom: 30px;
+}
+.start_screen .marker_point {
+  width: 111px;
+  height: 111px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+.start_screen .marker_point::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #26BAE7;
+  opacity: 0.2;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.start_screen .ongoing {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 50px;
+  padding: 0 50px;
+}
+.start_screen .ongoing .left {
+  display: flex;
+  justify-content: flex-start;
+  width: 70%;
+  gap: 20px;
+}
+.start_screen .ongoing .left .text h4 {
+  color: #222222;
+}
+.start_screen .ongoing .left .text .time {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  color: #9093A3;
+}
+.start_screen .ongoing .left .text .time span {
+  display: inline-block;
+  font-size: 14px;
+}
+.start_screen .sharebtn {
+  padding: 0 50px;
+}
+@media screen and (max-width: 400px) {
+  .start_screen .ongoing .left {
+    width: 80%;
+    gap: 10px;
+  }
+  .start_screen .ongoing .left .text {
+    gap: 10px;
+  }
+  .start_screen .ongoing .left .text .time span {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 310px) {
+  .start_screen .ongoing .left {
+    width: 80%;
+    gap: 5px;
+  }
+  .start_screen .ongoing .left .text h4 {
+    font-size: 14px;
+  }
+  .start_screen .ongoing .left .text .time {
+    gap: 4px;
+  }
+  .start_screen .ongoing .left .text .time span {
+    font-size: 8px;
+  }
 }/*# sourceMappingURL=style.css.map */
