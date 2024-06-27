@@ -79,7 +79,7 @@ svg {
 
 .max-w {
   max-width: 428px;
-  height: 100vh;
+  height: 95vh;
   position: relative;
 }
 
@@ -567,7 +567,7 @@ body {
 }
 
 .splash {
-  height: 100vh;
+  height: 95vh;
   background: rgb(255, 255, 255);
   opacity: 1;
   position: relative;
