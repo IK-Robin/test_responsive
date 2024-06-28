@@ -1104,7 +1104,11 @@ body {
 
 /*start screen */
 .start_screen {
+<<<<<<< HEAD
   height: 100svh; 
+=======
+  height: 100svh;
+>>>>>>> 063e8c29cc3354e650704f6b3f9356d249f77b4b
 }
 .start_screen .search_section {
   padding-bottom: 30px;
