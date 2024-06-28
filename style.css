@@ -79,7 +79,7 @@ svg {
 
 .max-w {
   max-width: 428px;
-  height: 90vh;
+  height: 100svh;
   position: relative;
 }
 
@@ -567,7 +567,7 @@ body {
 }
 
 .splash {
-  height: 90vh;
+  height: 100svh;
   background: rgb(255, 255, 255);
   opacity: 1;
   position: relative;
@@ -1104,7 +1104,7 @@ body {
 
 /*start screen */
 .start_screen {
-  height: 90vh;
+  height: 100svh; 
 }
 .start_screen .search_section {
   padding-bottom: 30px;
